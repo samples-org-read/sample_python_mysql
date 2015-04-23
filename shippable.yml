@@ -18,4 +18,3 @@ script:
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
   - echo $BUILD_NUMBER
 
-archive: true
